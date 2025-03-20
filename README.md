@@ -1,3 +1,11 @@
+# Median Household Income Trends in Texas Counties (ACS 5-Year Estimates, 2010-2023)
+
+>**Note: Before running the code, install the necessary packages (if you haven’t already)
+
+```python
+pip install pandas matplotlib requests census us
+```
+
 ```python
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -108,7 +116,7 @@ else:
     The table B19013A_001E is present in all years from 2011 to 2023.
     
 
-# Load Variables for the Latest ACS 5 (2023) & Inspect
+# Load Variables for the ACS (5-Year) & Inspect
 
 
 ```python
@@ -322,12 +330,7 @@ plt.tight_layout()
 plt.show()
 ```
 
-
-    
-![png](output_31_0.png)
-    
-
-
+![output_31_0](https://github.com/user-attachments/assets/a9c2998b-76a5-46ea-83bc-a913a37230a1)
 
 ```python
 
