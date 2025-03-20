@@ -274,7 +274,7 @@ print(texas_income)
     23  Taylor County, Texas   65588.0  3511.0    48  441  2022
     
 
-# Visualize the Data with Scatter and Error Bar Plots
+# Visualize the Data with a Line Plot
 
 ## Check the DataFrame Structure
 
